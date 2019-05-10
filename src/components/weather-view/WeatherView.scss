@@ -1,0 +1,15 @@
+.weather-view {
+
+  color: initial;
+
+  &__temp {
+    font-size: 2rem;
+  }
+
+  &__temp-details {
+    span {
+      padding-right: 1rem;
+    }
+  }
+
+}

@@ -1,0 +1,12 @@
+.city-card {
+  cursor: pointer;
+  min-width: 200px; }
+  .city-card:hover .city-card__remove {
+    display: inline !important; }
+  .city-card__weather {
+    margin-top: 5px; }
+  .city-card__remove {
+    display: none !important;
+    position: absolute;
+    top: 3px;
+    right: 2px; }

@@ -1,0 +1,10 @@
+.search-city {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  flex-direction: center;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row; }

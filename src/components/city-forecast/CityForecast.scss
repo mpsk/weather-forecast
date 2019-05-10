@@ -1,0 +1,22 @@
+@import 'styles/mixins.scss';
+
+.city-forecast {
+
+  overflow: auto;
+
+  &__forecast-days {
+    @include flex-container-row();
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+
+  }
+
+  &__day-item {
+    padding-right: 1rem;
+    margin: 0 !important;    
+    flex: 1 0 200px;
+  }
+  
+}

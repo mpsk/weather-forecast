@@ -1,0 +1,10 @@
+@import '~weather-icons/css/weather-icons.min.css';
+
+.weather-icon {
+  font-family: 'weathericons' !important;
+
+  &.wi {
+    font-size: 4rem;
+    margin: 1rem !important;
+  }
+}

@@ -1,0 +1,6 @@
+@import url(~weather-icons/css/weather-icons.min.css);
+.weather-icon {
+  font-family: 'weathericons' !important; }
+  .weather-icon.wi {
+    font-size: 4rem;
+    margin: 1rem !important; }

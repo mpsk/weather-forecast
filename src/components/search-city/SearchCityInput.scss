@@ -1,0 +1,14 @@
+@import 'styles/mixins.scss';
+
+.search-city {
+
+  @include flex-container-row();
+
+  &__input {
+
+  }
+
+  &__clear {
+
+  }
+}

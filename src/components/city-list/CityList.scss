@@ -1,0 +1,14 @@
+@import 'styles/mixins.scss';
+
+.city-list {
+
+  @include flex-container-row();
+  align-items: start;
+
+  &.ui.cards {
+    margin: 0;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  
+}
